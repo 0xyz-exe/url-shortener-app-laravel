@@ -4,6 +4,15 @@ Repository: https://github.com/0xyz-exe/url-shortener-app-laravel
 
 A high-performance URL shortener, link management platform, and traffic analytics dashboard built with Laravel 13, Blade, Tailwind CSS, and SQLite.
 
+## Screenshots
+
+| Tampilan | Preview |
+|---|---|
+| **Dashboard Metrik & Ringkasan Performa Tautan**<br>Dasbor analitik utama dengan kartu KPI (Total Links, Total Clicks, Active Links), tabel tautan berkinerja tertinggi, serta feed klik pengunjung langsung | ![Dashboard Metrik & Ringkasan Performa Tautan](docs/screenshots/01-dashboard-overview.png) |
+| **Direktori Manajemen Tautan Pendek**<br>Tabel inventaris tautan pendek lengkap dengan tombol salin (Copy), target URL asli, jumlah klik, badge status aktif/kedaluwarsa, dan aksi manajemen | ![Direktori Manajemen Tautan Pendek](docs/screenshots/02-links-management-directory.png) |
+| **Formulir Pembuatan Tautan & Custom Slug**<br>Formulir pembuatan URL pendek dengan input URL tujuan, kustomisasi alias/slug unik, label kampanye opsional, dan penetapan batas waktu kedaluwarsa | ![Formulir Pembuatan Tautan & Custom Slug](docs/screenshots/03-create-short-link-form.png) |
+| **Analitik Rinci & Log Kunjungan Pengunjung**<br>Halaman metrik mendalam untuk tautan individual dengan rekap total klik, breakdown saluran rujukan (Referrer Channels), perangkat, peramban, dan log IP pengunjung | ![Analitik Rinci & Log Kunjungan Pengunjung](docs/screenshots/04-link-analytics-detail.png) |
+
 ## Features
 
 - ✅ **Instant Shortening**: Auto-generates clean, collision-free 6-character random slugs or allows custom aliases.
